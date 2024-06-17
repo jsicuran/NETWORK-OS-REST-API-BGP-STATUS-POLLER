@@ -10,6 +10,8 @@ The application is Python based utilizing various RESTful API and JSON libraries
 
 This is small and simple version of the application that is a hard coded to point to specific BGP devices. There is limited error correction and it is a non-HTTPS cookie version using single SSH based single login.  
 
+Code is included for DELL OS10 switch REST API as well that utilizes differnt URL and schema to traverse.
+
 A GUI version will be available soon that utilizes improved error correction, adding additional peers and REST cookie use for secure single sign on use. 
 Both GUI/Text versions can be “complied” for use as a single executable file. 
 Can be used as part of an automation tool or code can be integrated into other automation tools/code. 
